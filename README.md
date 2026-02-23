@@ -1,16 +1,32 @@
-# chat_application
 
-A new Flutter project.
+# We Chat 💬
+
+A real-time chat application built with **Flutter**, **BLoC**, and **Clean Architecture**, powered by **Firebase**.
+
+## Features
+- Firebase Email/Password Authentication
+- User listing & chat initiation
+- One-to-one real-time messaging
+- Chat preview with last message
+- Logout & session handling
+- Clean Architecture (Data / Domain / Presentation)
+
+## Tech Stack
+- Flutter
+- flutter_bloc
+- Firebase Auth
+- Cloud Firestore
+
+## Architecture
+- Clean architecture
 
 ## Getting Started
+1. Clone the repo
+2. Add your own Firebase project
+3. Run `flutter pub get`
+4. Run the app
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Upcoming Improvements
+- Read receipts
+- Online/offline status
+- Push notifications
